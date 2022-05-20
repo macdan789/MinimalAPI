@@ -5,11 +5,11 @@ public static class CustomerAPI
     public static void ConfigureCustomerAPI(this WebApplication app)
     {
         // All of the API endpoints mapping
-        app.Map("/GetCustomer/{customerID}", GetCustomer).WithName("Get");
-        app.Map("/GetCustomers", GetCustomers).WithName("GetAll");
-        app.Map("/DeleteCustomer/{customerID}", DeleteCustomer).WithName("Delete");
-        app.Map("/UpdateCustomer", UpdateCustomer).WithName("Update");
-        app.Map("/CreateCustomer", CreateCustomer).WithName("Create");
+        app.Map("/GetCustomer/{customerID}", GetCustomer);
+        app.Map("/GetCustomers", GetCustomers);
+        app.Map("/DeleteCustomer/{customerID}", DeleteCustomer);
+        app.Map("/UpdateCustomer", UpdateCustomer);
+        app.Map("/CreateCustomer", CreateCustomer);
     }
 
     private static async Task<IResult> GetCustomer(ICustomerRepository repository, int customerID)
