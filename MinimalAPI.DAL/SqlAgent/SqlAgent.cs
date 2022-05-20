@@ -3,13 +3,13 @@ using Microsoft.Extensions.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 
-namespace MinimalAPI.DAL.SqlAgent.Customer;
+namespace MinimalAPI.DAL.SqlAgent;
 
-public class CustomerSqlAgent : ICustomerSqlAgent
+public class SqlAgent : ISqlAgent
 {
     private IConfiguration Configuration { get; }
 
-    public CustomerSqlAgent(IConfiguration configuration)
+    public SqlAgent(IConfiguration configuration)
     {
         Configuration = configuration;
     }

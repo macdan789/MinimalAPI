@@ -69,4 +69,7 @@
     <Build Include="dbo\StoredProcedure\Customer\UpdateCustomer.sql" />
     <Build Include="dbo\StoredProcedure\Customer\CreateCustomer.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="dbo\Script.PostDeployment.sql" />
+  </ItemGroup>
 </Project>
