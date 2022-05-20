@@ -1,10 +1,12 @@
-﻿IF NOT EXISTS (SELECT 1 FROM [dbo].[Customer])
+﻿--USE @DATABASE;
+
+IF NOT EXISTS (SELECT 1 FROM [dbo].[Customer])
 BEGIN
 	INSERT INTO [dbo].[Customer] 
 	(
 		FirstName,
 		LastName,
-		CreatedDate,
+		CreatedAt,
 		EmailAddress
 	)
 	VALUES
