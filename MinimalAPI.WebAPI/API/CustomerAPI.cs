@@ -6,7 +6,7 @@ public static class CustomerAPI
     {
         // All of the API endpoints mapping
         app.Map("/GetCustomer/{customerID}", GetCustomer).WithName("Get");
-        app.Map("/GetCustomers", GetCustomers).WithName("Get");
+        app.Map("/GetCustomers", GetCustomers).WithName("GetAll");
         app.Map("/DeleteCustomer/{customerID}", DeleteCustomer).WithName("Delete");
         app.Map("/UpdateCustomer", UpdateCustomer).WithName("Update");
         app.Map("/CreateCustomer", CreateCustomer).WithName("Create");
