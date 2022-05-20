@@ -59,8 +59,14 @@
     <Folder Include="dbo" />
     <Folder Include="dbo\Table" />
     <Folder Include="dbo\StoredProcedure" />
+    <Folder Include="dbo\StoredProcedure\Customer" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Table\Customer.sql" />
+    <Build Include="dbo\StoredProcedure\Customer\GetCustomers.sql" />
+    <Build Include="dbo\StoredProcedure\Customer\GetCustomer.sql" />
+    <Build Include="dbo\StoredProcedure\Customer\DeleteCustomer.sql" />
+    <Build Include="dbo\StoredProcedure\Customer\UpdateCustomer.sql" />
+    <Build Include="dbo\StoredProcedure\Customer\CreateCustomer.sql" />
   </ItemGroup>
 </Project>
