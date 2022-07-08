@@ -10,9 +10,9 @@ BEGIN
 		EmailAddress
 	)
 	VALUES
-	('Bohdan', 'Marko', GETDATE(), 'markopollo789@gmail.com'),
-	('Vasyl', 'Gyz', GETDATE(), 'vasylg@adorama.com'),
-	('Yaroslav', 'Bratynskiy', GETDATE(), 'yaroslavb@adorama.com'),
-	('Vitaliy', 'Hashchuk', GETDATE(), 'vitaliyh@adorama.com'),
-	('Nazar', 'Pleskanka', GETDATE(), 'nazarp@adorama.com')
+	('Bohdan', 'Marko', GETDATE(), 'testemail1@gmail.com'),
+	('Vasyl', 'Gyz', GETDATE(), 'testemail2@gmail.com'),
+	('Yaroslav', 'Bratynskiy', GETDATE(), 'testemail3@gmail.com'),
+	('Vitaliy', 'Hashchuk', GETDATE(), 'testemail4@gmail.com'),
+	('Nazar', 'Pleskanka', GETDATE(), 'testemail5@gmail.com')
 END
